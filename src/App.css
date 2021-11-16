@@ -1,0 +1,93 @@
+
+
+#postContent{
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin:100px 0 0 380px;
+  padding-left: 20px;
+}
+.blue{
+  color:dodgerblue;
+  margin-left: 10px;
+}
+.grading{
+  color:dodgerblue;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#icons{
+  margin-left: 390px;
+  margin-top: 20px;
+}
+.beforegrading{
+  color:dodgerblue;
+  cursor: pointer;
+}
+.headding{
+  color: white;
+  margin-bottom: 0;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+.headding:first-of-type{
+  margin-top: 70px;
+}
+.grading-modal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin-left: 200px;
+  margin-top: 15px;
+}
+.rev-headding{
+  color: white;
+  margin-bottom: 0;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+#text-area{
+  margin-left: 200px;
+  width:340px;
+  height:10vh;
+  font-size: 16px;
+  color: black;
+  outline: none;
+}
+#sub-btn{
+  float: right;
+  padding:5px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-right: 50px;
+  background-color: blue;
+  color: white;
+}
+#total-grade{
+  float:right;
+  margin-right: 380px;
+  position: relative;
+  bottom: 24px;
+}
+#tg{
+  position: relative;
+  bottom: 15px;
+}
+.hide{
+  display:none;
+}
+.dis{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 390px;
+  width: 45%;
+}
+.avg-grade{
+  position: relative;
+  margin-top:20px;
+}
